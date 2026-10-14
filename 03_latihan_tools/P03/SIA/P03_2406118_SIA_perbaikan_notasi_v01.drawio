@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="r1nx3-RcViOviBTkM_8b" name="Page-1">
+        <mxGraphModel dx="309" dy="270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Sistem Informasi Akademik" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=40;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="220" width="400" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="3" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Mahasiswa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="340" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="4" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Admin akademik" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="340" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Lihat Jadwal Kuliah" style="ellipse;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="345" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Kelola Jadwal&#10;kuliah" style="ellipse;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="345" width="100" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
