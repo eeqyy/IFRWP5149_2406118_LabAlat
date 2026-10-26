@@ -7,4 +7,4 @@
 | 3   | Aktor Mahasiswa dihubungkan dengan  | Hubungan tersebut tidak diperlukan.       | Aktor hanya dihubungkan dengan      |
 |     | Kelola Jadwal Kuliah.               |                                           | fungsi yang diaksesnya.             |
 | 4   | Identitas diagram menggunakan judul | ID diagram menggunakan format SIA-P02-UC. | ID mengikuti format penamaan        |
-|     | Sistem Laboratorium.                |                                           | artefak yang ditetapkan.            |
+|     | Sistem Laboratorium.                |                                           | artefak yang ditetapkan.            
