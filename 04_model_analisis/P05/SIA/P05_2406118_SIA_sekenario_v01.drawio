@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="p05sia01" name="SIA-UC01">
-        <mxGraphModel dx="2168" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="4380" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -258,7 +258,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="p05sia02" name="SIA-UC02">
-        <mxGraphModel dx="2541" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="5054" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>

@@ -1,3 +1,5 @@
+# P03 — Skenario Studi Kasus LAB
+
 <!-- deskripsi -->
 Mahasiswa mengajukan peminjaman peralatan dengan memilih alat,
 jumlah, dan rentang waktu. Sistem memeriksa ketersediaan. Jika
@@ -8,18 +10,14 @@ serta menyetujui atau menolak pengajuan. Kepala laboratorium melihat
 laporan peminjaman.
 
 <!-- tabel kebutuhan -->
-------------------------------------------------------------------------------
-| ID      |     Kebutuhan
-------------------------------------------------------------------------------
-| LAB-R01 |     Mahasiswa dapat melihat ketersediaan peralatan
-| LAB-R02 |     Petugas dapat mengelola data peralatan
-| LAB-R03 |     Mahasiswa dapat mengajukan peminjaman; sistem memeriksa
-|         |     ketersediaan sebelum menyimpan pengajuan
-| LAB-R04 |     Mahasiswa dapat mencetak bukti pada konfirmasi pengajuan jika
-|         |     memilihnya
-| LAB-R05 |     Petugas dapat menetapkan persetujuan atau penolakan pengajuan
-| LAB-R06 |     Kepala laboratorium dapat melihat laporan peminjaman
--------------------------------------------------------------------------------
+| ID      | Kebutuhan                                                                 |
+| ------- | ------------------------------------------------------------------------- |
+| LAB-R01 | Mahasiswa dapat melihat ketersediaan peralatan                            |
+| LAB-R02 | Petugas dapat mengelola data peralatan                                    |
+| LAB-R03 | Mahasiswa dapat mengajukan peminjaman; sistem memeriksa ketersediaan sebelum menyimpan pengajuan |
+| LAB-R04 | Mahasiswa dapat mencetak bukti pada konfirmasi pengajuan jika memilihnya  |
+| LAB-R05 | Petugas dapat menetapkan persetujuan atau penolakan pengajuan             |
+| LAB-R06 | Kepala laboratorium dapat melihat laporan peminjaman                      |
 
 <!-- batas sistem dan aturan -->
 • Sistem mencatat dan menyediakan informasi; perpindahan fisik alat tidak
@@ -27,8 +25,6 @@ terjadi di dalam perangkat lunak.
 • Pengguna telah terautentikasi dan memiliki hak akses sesuai peran.
 • Pengajuan yang diterima sistem berstatus Menunggu keputusan, bukan
 otomatis Disetujui.
-Praktikum Analisis dan Desain Berorientasi Objek | 36
-Institut Teknologi Garut S1 – Teknik Informatika
 • Pengajuan dengan peralatan tidak tersedia tidak disimpan sebagai
 pengajuan berhasil.
 • Pencetakan bukti tidak menjadi syarat keberhasilan pengajuan.
@@ -37,16 +33,11 @@ pengajuan berhasil.
 pada potongan model ini.
 
 <!-- tabel identifikasi aktor -->
---------------------------------------------------------------------------
-Aktor            |      Tujuan terhadap sistem
---------------------------------------------------------------------------
-Mahasiswa        |      Melihat ketersediaan, mengajukan peminjaman, dan
-                 |      mencetak bukti
-Petugas          |      Mengelola peralatan dan memproses keputusan
-laboratorium     | 
-Kepala           |      Melihat laporan peminjaman
-laboratorium     |
---------------------------------------------------------------------------
+| Aktor                | Tujuan terhadap sistem                                            |
+| -------------------- | ----------------------------------------------------------------- |
+| Mahasiswa            | Melihat ketersediaan, mengajukan peminjaman, dan mencetak bukti   |
+| Petugas laboratorium | Mengelola peralatan dan memproses keputusan                       |
+| Kepala laboratorium  | Melihat laporan peminjaman                                        |
 
 <!-- tabel katalog usecase -->
 | ID        | Nama use case                   | Peran dalam model               |
